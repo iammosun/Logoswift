@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
 }
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -8,7 +9,7 @@ html {
 
 /* Global Styles_____________________________________________________________ */
 
-body{
+body {
   margin: 0;
   padding: 0;
   font-family: 'Montserrat', sans-serif;
@@ -17,31 +18,35 @@ body{
   color: black;
 }
 
-.center-container{
+.center-container {
   margin: 0 auto;
   padding: 0;
   width: 80%;
   /* border: 1px solid yellow; */
 }
 
-h1, h2, h3, h4{
+h1, h2, h3, h4 {
   font-family: 'Merriweather', serif;
 }
-h1{
+
+h1 {
   font-size: 3.3rem;
   /* margin: 1em 1em 0 1em; */
 }
-h3{
+
+h3 {
   font-size: 2rem;
 }
-h4{
+
+h4 {
   font-size: 1.4rem;
 }
 
-ul{
+ul {
   list-style-type: none;
 }
-a{
+
+a {
   color: black;
   text-decoration: none;
 }
@@ -50,27 +55,28 @@ a{
 
 /* Header____________________________________________________________________ */
 
-header .center-container{
+header .center-container {
   display: flex;
   justify-content: space-between;
 }
-.nav{
+
+.nav {
   display: flex;
 }
-.logo{
+.logo {
   margin: 0;
   margin-top: 0.5em ;
   padding: 0;
 }
-.logo h4{
+.logo h4 {
   margin-top: 0.8em;
 }
-ul{
+ul {
   list-style-type: none;
   margin-bottom: 0;
   font-weight: 400;
 }
-nav li{
+nav li {
   font-weight: 600;
   margin: 1.5em;
   margin-top: 1em;
@@ -81,24 +87,27 @@ nav li{
 
 
 /* heading___________________________________________________________________ */
-.heading-container{
+.heading-container {
   background-image: url(../images/pencils.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   text-align: center;
 }
-.h1{
+
+.h1 {
   line-height: 6em;
   max-width: 80%;
   margin: 0 auto;
   padding-top: 4em;
 }
-.heading-btn{
+
+.heading-btn {
   padding-top: 0.7em;
   padding-bottom: 25em;
 }
-.heading-btn a{
+
+.heading-btn a {
   background-color: rgba(255, 2, 2, 0.8);
   padding: 1.4em 1.8em;
   border-radius: 0.3em;
@@ -109,40 +118,45 @@ nav li{
 
 
 /* main______________________________________________________________________ */
-.our-ethics, .how-does-it-work{
+.our-ethics, .how-does-it-work {
   margin: 6em auto;
 }
-.similar-columns{
+
+.similar-columns {
   display: flex;
   justify-content: space-between;
 }
-.similar-columns img{
+
+.similar-columns img {
   width: 85px;
   height: 85px;
 }
-.similar-columns div{
+
+.similar-columns div {
   text-align: center;
   width: 32%;
 }
 
-
-
-.first-main-box{
+.first-main-box {
   height: 100%;
   display: flex;
 }
-.half-box{
+
+.half-box {
   color: white;
   padding: 6em 2em 1em 10%;
   background-color: rgba(255, 2, 2, 0.8);
 }
-.half-box h3{
+
+.half-box h3 {
   line-height: 1.5em;
 }
-.half-box, .colleague{
+
+.half-box, .colleague {
   width: 50%;
 }
-.colleague img{
+
+.colleague img {
   height: 100%;
   width: 100%;
   display: block;
@@ -150,25 +164,21 @@ nav li{
   object-position: top center;
 }
 
-
-
-
-
-
-
-
-.how-does-it-work{
+.how-does-it-work {
   text-align: center;
   padding: 0.5em 0;
 }
-.how-does-it-work h3{
+
+.how-does-it-work h3 {
   margin-bottom: 1.7em;
 }
-.will-it-be-yours{
+
+.will-it-be-yours {
   padding: 1.7em;
   background-color: rgba(255, 2, 2, 0.8);
 }
-.will-it-be-yours div{
+
+.will-it-be-yours div {
   color: white;
   padding: 2.5em 0;
   margin: 0 auto;
@@ -176,7 +186,8 @@ nav li{
   max-width: 48%;
   line-height: 3.5em;
 }
-.will-it-be-yours a{
+
+.will-it-be-yours a {
   color: rgba(255, 2, 2, 0.8);
   background-color: white;
   padding: 1em 2.5em;
@@ -184,131 +195,146 @@ nav li{
   font-weight: bold;
 }
 
-
-.review-center{
+.review-center {
   border: 1px solid red;
   display: flex;
   justify-content: space-between;
 }
-.logo-and-shop{
+
+.logo-and-shop {
   display: flex;
   justify-content: space-between;
 }
-.review-half{
+
+.review-half {
   width: 49%;
 }
-.reviewer-img{
+
+.reviewer-img {
   border: 1px solid red;
   height: 100%;
   width: 49%;
 }
-.logo-and-shop img{
+
+.logo-and-shop img {
   border: 1px solid red;
   height: 220px;
   width: 100%;
   object-fit: cover;
 }
-.reviewer-img img{
+
+.reviewer-img img {
   height: 450px;
   width: 100%;
   object-fit: cover;
 }
 
-
-
-
-
-
-.our-clients{
+.our-clients {
   clear: both;
   text-align: center;
   margin: 0 auto;
   padding: 5em 0;
 }
-.our-clients img{
+
+.our-clients img {
   height: 150px;
   width: 150px;
   padding: 2em;
 }
-.our-client-logos{
+
+.our-client-logos {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
 }
-.client-flex1, .client-flex2{
+
+.client-flex1, .client-flex2 {
   display: flex;
   justify-content: space-between;
 }
 
-.choose-package-container{
+.choose-package-container {
   background-color: rgba(255, 2, 2, 0.1);
   text-align: center;
   padding: 7em 0;
 }
-.choose-package-container h3{
+
+.choose-package-container h3 {
   margin-bottom: 3em;
 }
-.choose-package-tables{
+
+.choose-package-tables {
   display: flex;
   justify-content: space-between;
 }
 
-.basic-package-table, .premium-package-table{
+.basic-package-table, .premium-package-table {
   background-color: white;
   width: 48%;
 }
-.package-content-flex{
+
+.package-content-flex {
   display: flex;
   justify-content: space-between;
   padding: 1.5em;
   /* border-bottom: 1px solid gray; */
 }
-.get-started{
+
+.get-started {
   color: white;
   padding: 0 1.5em;
   text-align: center;
 }
-.get-started p{
+
+.get-started p {
   background-color: rgba(255, 2, 2, 0.8);
   padding: 1em;
   margin: 0 auto;
   border-radius: 0.2em;
 }
-.get-started a{
+
+.get-started a {
   color: white;
   padding: 5em 10em;
 }
-.price{
+
+.price {
   font-size: 2em;
   margin: 0;
   color: rgba(255, 2, 2, 0.8);
 }
-.package-content-flex h4{
+
+.package-content-flex h4 {
   margin-top: 0;
   margin-bottom: 0;
 }
-.package-content-flex img:last-child{
+
+.package-content-flex img:last-child {
   width: 20px;
   height: 20px;
 }
-.check-flex{
+
+.check-flex {
   display: flex;
 }
-.check-flex img{
+
+.check-flex img {
   height: 20px;
   width: 20px;
   margin-right: 1em;
 }
-.check-flex p{
+
+.check-flex p {
   margin: 0;
 }
-footer{
+
+footer {
   margin: 0 auto 2em;
   text-align: center;
   /* margin-bottom: 1em; */
 }
 
-.hide{
+.hide {
   height: 0;
   overflow: hidden;
 }
